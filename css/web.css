@@ -45,15 +45,28 @@ header {
     border-bottom: 2px solid var(--morkgron);
     
 }
+.forside{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--beige);
+  background-image: url(../img/banggrund\ forside.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 body{
     display: flex;
     flex-direction: column;
-    background-color: var(--beige);
-    background-image: url(../img/banggrund\ forside.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
 }
+.ugensdigt{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--beige);
+  background-image: url(../img/Baggrund-ugens.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 
 footer{
     background: var(--beige);
@@ -90,7 +103,7 @@ footer{
     border: 2px solid var(--morkgron);
     width: 250px;
     background-color: var(--beige);
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 10px;
     margin: 220px 0px 0px 30px;
   }
@@ -107,7 +120,7 @@ footer{
     border: 2px solid var(--morkgron);
     width: 500px;
     background-color: var(--beige);
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 10px;
     margin: 30px 0px 30px 30px;
     font-size: 20px;
@@ -118,6 +131,7 @@ footer{
     justify-content: flex-end;
   }
 /*løber ind i problemer, jeg skal have rykket hele boxen hen til flex-end, men den rykker kun teksten i boksen. Dårlig løsning, ryk det hele fra flex-start*/
+/*Manger at centralisere tekst*/
   .senddigt{
     font-family: "Alegreya", serif;
     font-size: 30px;
@@ -125,16 +139,114 @@ footer{
     justify-content: center;
     color: var(--morkgron);
     border: 2px solid var(--morkgron);
-    border-radius: 20px;
+    border-radius: 15px;
     width: 500px;
     background-color: var(--beige);
     padding: 10px;
     margin-left: 720px;
-    margin-top: 300px;
+    margin-top: 150px;
   }
 
+.inspi{
+  Color: var(--morkgron);
+  border:2px solid var(--morkgron);
+  background-color: var(--beige);
+  border-radius: 15px;
+  width: 500px;
+  margin: 30px;
+  padding: 10px;
+  font-family: "Alegreya", serif;
+  font-size: 30px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+    
+}
 
 
+/*Ugens digt underside*/
 
+.ugensdigtoverskrift{
+  font-family: "Alegreya", serif;
+  font-size: 30px;
+  Color: var(--morkgron);
+  border:2px solid var(--morkgron);
+  background-color: var(--beige);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  align-self: center;
+  padding: 20px;
+  margin-top: 50px;
+}
 
+.digtformular{
+  Color: var(--morkgron);
+  border:2px solid var(--morkgron);
+  background-color: var(--beige);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  align-self: center;
+  padding: 20px;
+  margin-top: 50px;
+  size: 500px 500px;
   
+}
+textarea{
+  resize: none;
+  min-width: 450px;
+  min-height: 300px;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.infoform{
+  display: flex;
+  justify-content: center;
+}
+.infoform1{
+  Color: var(--morkgron);
+  border:2px solid var(--morkgron);
+  background-color: var(--beige);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  align-self: center;
+  padding: 5px;
+  margin-top: 30px;
+  size: 500px 500px;
+}
+.infoform2{
+  Color: var(--morkgron);
+  border:2px solid var(--morkgron);
+  background-color: var(--beige);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  align-self: center;
+  padding: 5px;
+  margin-top: 30px;
+  margin-left: 30px;
+  size: 500px 500px;
+}
+.svar{
+  border:2px solid var(--morkgron);
+  background-color: var(--beige);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  align-self: center;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.svar a{
+  font-family: "Alegreya", serif;
+  font-size: 30px;
+  Color: var(--morkgron);
+}
