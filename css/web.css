@@ -250,3 +250,17 @@ textarea{
   font-size: 30px;
   Color: var(--morkgron);
 }
+.ugensinfo{
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  Color: var(--morkgron);
+  border:2px solid var(--morkgron);
+  background-color: var(--beige);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  align-self: center;
+  padding: 20px;
+  margin-bottom: ;
+}
