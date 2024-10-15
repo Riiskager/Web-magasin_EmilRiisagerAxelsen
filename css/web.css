@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+@font-face {
+    font-family: "overskrift";
+    src: url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+}
+    */
+
+
+:root{
+    --morkgron: #283618;
+    --lysgron: #606c38;
+    --beige: #fefae0;
+    --Lysbrun: #dda15e;
+    --morkbrun: #bc6c25;
+    --sort: #000000; 
+}
+
+.logo{
+    width: 70px;
+    display: flex;
+    padding-right: 100px;
+    
+}
+
+.soeg{
+    width: 30px;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 30px
+}
+
+header {
+    font-family: "Alegreya", serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--beige);
+   /* border: 2px solid black;*/
+    padding: 10px;
+    border-bottom: 2px solid var(--morkgron);
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--beige);
+    background-image: url(../img/banggrund\ forside.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+footer{
+    background: var(--beige);
+    border-top: 2px solid var(--morkgron);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.topnavi{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.topnavi a {
+    
+    float: left;
+    display: block;
+    color: var(--morkgron);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+
+  
+  
+  .topnavi .icon {
+    display: none;
+  }
+
+
+  .ugensdigtbox{
+    border: 2px solid var(--morkgron);
+    width: 250px;
+    background-color: var(--beige);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 220px 0px 0px 30px;
+  }
+  .ugensdigtbox h1{
+    color: var(--morkgron);
+    font-family: "Alegreya", serif;
+    font-weight: 300;
+    padding: 0px 15px;
+    font-size: 40px;
+  }
+  .ugensdigttext{
+    font-family: "Raleway", sans-serif;
+    color: var(--morkgron);
+    border: 2px solid var(--morkgron);
+    width: 500px;
+    background-color: var(--beige);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px 0px 30px 30px;
+    font-size: 20px;
+  }
+
+  .ugensdigttext a{
+    display: flex;
+    justify-content: flex-end;
+  }
+/*løber ind i problemer, jeg skal have rykket hele boxen hen til flex-end, men den rykker kun teksten i boksen. Dårlig løsning, ryk det hele fra flex-start*/
+  .senddigt{
+    font-family: "Alegreya", serif;
+    font-size: 30px;
+    font-display: flex;
+    justify-content: center;
+    color: var(--morkgron);
+    border: 2px solid var(--morkgron);
+    border-radius: 20px;
+    width: 500px;
+    background-color: var(--beige);
+    padding: 10px;
+    margin-left: 720px;
+    margin-top: 300px;
+  }
+
+
+
+
+
+  
