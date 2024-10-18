@@ -435,6 +435,7 @@ textarea{
   max-width: 400px;
   border-bottom: 3px solid var(--lysgron);
   border-width: 100%;
+  align-items: center;
 }
 
 .poeterne a{
@@ -443,17 +444,13 @@ textarea{
 .katrine{
   display: flex;
   justify-content: space-around;
-  width: 100%;
   padding-top: 50px;
-  padding-right: 200px;
   padding-bottom: 20px;
 }
 .lukas{
   display: flex;
   justify-content: space-around;
-  width: 100%;
   padding-top: 50px;
-  padding-right: 200px;
   padding-bottom: 20px;
 }
 
